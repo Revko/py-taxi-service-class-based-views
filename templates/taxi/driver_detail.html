@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <h1>Driver: {{ object.name }}</h1>
+  <h1>Driver: {{ object.first_name }} {{ object.last_name }}</h1>
     <p><strong>License Number:</strong> {{ object.license_number }}</p>
     <h2>Driver's cars</h2>
     <ul>
